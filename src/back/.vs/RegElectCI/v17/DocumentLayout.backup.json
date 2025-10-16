@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV\\RegElectCI\\src\\back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE1E21C3-8021-4842-9F09-C42855189EB9}|tests\\Application.UnitTests\\Application.UnitTests.csproj|d:\\dev\\regelectci\\src\\back\\tests\\application.unittests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE1E21C3-8021-4842-9F09-C42855189EB9}|tests\\Application.UnitTests\\Application.UnitTests.csproj|solutionrelative:tests\\application.unittests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|d:\\dev\\regelectci\\src\\back\\src\\backend\\10-application\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|solutionrelative:src\\backend\\10-application\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|d:\\dev\\regelectci\\src\\back\\src\\backend\\10-application\\interfaces\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|solutionrelative:src\\backend\\10-application\\interfaces\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|d:\\dev\\regelectci\\src\\back\\src\\backend\\10-application\\exceptions\\auth\\userauthenticationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|solutionrelative:src\\backend\\10-application\\exceptions\\auth\\userauthenticationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|d:\\dev\\regelectci\\src\\back\\src\\backend\\10-application\\behaviours\\authorizationbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|solutionrelative:src\\backend\\10-application\\behaviours\\authorizationbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1259,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\tests\\Application.UnitTests\\Test1.cs",
+              "RelativeDocumentMoniker": "tests\\Application.UnitTests\\Test1.cs",
+              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\tests\\Application.UnitTests\\Test1.cs",
+              "RelativeToolTip": "tests\\Application.UnitTests\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T18:07:49.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserAuthenticationException.cs",
+              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\Exceptions\\Auth\\UserAuthenticationException.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\10-Application\\Exceptions\\Auth\\UserAuthenticationException.cs",
+              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\Exceptions\\Auth\\UserAuthenticationException.cs",
+              "RelativeToolTip": "src\\Backend\\10-Application\\Exceptions\\Auth\\UserAuthenticationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T17:54:56.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\Interfaces\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\10-Application\\Interfaces\\Services\\ITokenService.cs",
+              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\Interfaces\\Services\\ITokenService.cs",
+              "RelativeToolTip": "src\\Backend\\10-Application\\Interfaces\\Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T17:53:36.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthorizationBehaviour.cs",
+              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\Behaviours\\AuthorizationBehaviour.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\10-Application\\Behaviours\\AuthorizationBehaviour.cs",
+              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\Behaviours\\AuthorizationBehaviour.cs",
+              "RelativeToolTip": "src\\Backend\\10-Application\\Behaviours\\AuthorizationBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:38:16.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConfigureServices.cs",
+              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\ConfigureServices.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\10-Application\\ConfigureServices.cs",
+              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\ConfigureServices.cs",
+              "RelativeToolTip": "src\\Backend\\10-Application\\ConfigureServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T20:19:12.718Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+D:\DEV\RegElectCI\src\back\src\Backend\11-Application.Features\bin\Debug\net9.0\11-Application.Features.deps.json
+D:\DEV\RegElectCI\src\back\src\Backend\11-Application.Features\bin\Debug\net9.0\11-Application.Features.dll
+D:\DEV\RegElectCI\src\back\src\Backend\11-Application.Features\bin\Debug\net9.0\11-Application.Features.pdb
+D:\DEV\RegElectCI\src\back\src\Backend\11-Application.Features\obj\Debug\net9.0\11-Application.Features.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV\RegElectCI\src\back\src\Backend\11-Application.Features\obj\Debug\net9.0\11-Application.Features.AssemblyInfoInputs.cache
+D:\DEV\RegElectCI\src\back\src\Backend\11-Application.Features\obj\Debug\net9.0\11-Application.Features.AssemblyInfo.cs
+D:\DEV\RegElectCI\src\back\src\Backend\11-Application.Features\obj\Debug\net9.0\11-Application.Features.csproj.CoreCompileInputs.cache
+D:\DEV\RegElectCI\src\back\src\Backend\11-Application.Features\obj\Debug\net9.0\11-Application.Features.sourcelink.json
+D:\DEV\RegElectCI\src\back\src\Backend\11-Application.Features\obj\Debug\net9.0\11-Application.Features.dll
+D:\DEV\RegElectCI\src\back\src\Backend\11-Application.Features\obj\Debug\net9.0\refint\11-Application.Features.dll
+D:\DEV\RegElectCI\src\back\src\Backend\11-Application.Features\obj\Debug\net9.0\11-Application.Features.pdb
+D:\DEV\RegElectCI\src\back\src\Backend\11-Application.Features\obj\Debug\net9.0\ref\11-Application.Features.dll

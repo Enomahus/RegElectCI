@@ -1,0 +1,13 @@
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\bin\Debug\net9.0\99-Tools.deps.json
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\bin\Debug\net9.0\99-Tools.dll
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\bin\Debug\net9.0\99-Tools.pdb
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\obj\Debug\net9.0\99-Tools.csproj.AssemblyReference.cache
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\obj\Debug\net9.0\99-Tools.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\obj\Debug\net9.0\99-Tools.AssemblyInfoInputs.cache
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\obj\Debug\net9.0\99-Tools.AssemblyInfo.cs
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\obj\Debug\net9.0\99-Tools.csproj.CoreCompileInputs.cache
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\obj\Debug\net9.0\99-Tools.sourcelink.json
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\obj\Debug\net9.0\99-Tools.dll
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\obj\Debug\net9.0\refint\99-Tools.dll
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\obj\Debug\net9.0\99-Tools.pdb
+D:\DEV\RegElectCI\src\back\src\Backend\99-Tools\obj\Debug\net9.0\ref\99-Tools.dll

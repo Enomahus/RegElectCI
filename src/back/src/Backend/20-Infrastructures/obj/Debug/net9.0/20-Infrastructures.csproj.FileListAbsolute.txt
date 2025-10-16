@@ -1,0 +1,12 @@
+D:\DEV\RegElectCI\src\back\src\Backend\20-Infrastructures\bin\Debug\net9.0\20-Infrastructures.deps.json
+D:\DEV\RegElectCI\src\back\src\Backend\20-Infrastructures\bin\Debug\net9.0\20-Infrastructures.dll
+D:\DEV\RegElectCI\src\back\src\Backend\20-Infrastructures\bin\Debug\net9.0\20-Infrastructures.pdb
+D:\DEV\RegElectCI\src\back\src\Backend\20-Infrastructures\obj\Debug\net9.0\20-Infrastructures.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV\RegElectCI\src\back\src\Backend\20-Infrastructures\obj\Debug\net9.0\20-Infrastructures.AssemblyInfoInputs.cache
+D:\DEV\RegElectCI\src\back\src\Backend\20-Infrastructures\obj\Debug\net9.0\20-Infrastructures.AssemblyInfo.cs
+D:\DEV\RegElectCI\src\back\src\Backend\20-Infrastructures\obj\Debug\net9.0\20-Infrastructures.csproj.CoreCompileInputs.cache
+D:\DEV\RegElectCI\src\back\src\Backend\20-Infrastructures\obj\Debug\net9.0\20-Infrastructures.sourcelink.json
+D:\DEV\RegElectCI\src\back\src\Backend\20-Infrastructures\obj\Debug\net9.0\20-Infrastructures.dll
+D:\DEV\RegElectCI\src\back\src\Backend\20-Infrastructures\obj\Debug\net9.0\refint\20-Infrastructures.dll
+D:\DEV\RegElectCI\src\back\src\Backend\20-Infrastructures\obj\Debug\net9.0\20-Infrastructures.pdb
+D:\DEV\RegElectCI\src\back\src\Backend\20-Infrastructures\obj\Debug\net9.0\ref\20-Infrastructures.dll
