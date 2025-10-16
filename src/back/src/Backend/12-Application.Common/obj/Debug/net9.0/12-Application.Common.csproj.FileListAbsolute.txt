@@ -1,0 +1,12 @@
+D:\DEV\RegElectCI\src\back\src\Backend\12-Application.Common\bin\Debug\net9.0\12-Application.Common.deps.json
+D:\DEV\RegElectCI\src\back\src\Backend\12-Application.Common\bin\Debug\net9.0\12-Application.Common.dll
+D:\DEV\RegElectCI\src\back\src\Backend\12-Application.Common\bin\Debug\net9.0\12-Application.Common.pdb
+D:\DEV\RegElectCI\src\back\src\Backend\12-Application.Common\obj\Debug\net9.0\12-Application.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV\RegElectCI\src\back\src\Backend\12-Application.Common\obj\Debug\net9.0\12-Application.Common.AssemblyInfoInputs.cache
+D:\DEV\RegElectCI\src\back\src\Backend\12-Application.Common\obj\Debug\net9.0\12-Application.Common.AssemblyInfo.cs
+D:\DEV\RegElectCI\src\back\src\Backend\12-Application.Common\obj\Debug\net9.0\12-Application.Common.csproj.CoreCompileInputs.cache
+D:\DEV\RegElectCI\src\back\src\Backend\12-Application.Common\obj\Debug\net9.0\12-Application.Common.sourcelink.json
+D:\DEV\RegElectCI\src\back\src\Backend\12-Application.Common\obj\Debug\net9.0\12-Application.Common.dll
+D:\DEV\RegElectCI\src\back\src\Backend\12-Application.Common\obj\Debug\net9.0\refint\12-Application.Common.dll
+D:\DEV\RegElectCI\src\back\src\Backend\12-Application.Common\obj\Debug\net9.0\12-Application.Common.pdb
+D:\DEV\RegElectCI\src\back\src\Backend\12-Application.Common\obj\Debug\net9.0\ref\12-Application.Common.dll

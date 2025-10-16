@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>Infrastructures.Persistence.SQLServer</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\12-Application.Common\12-Application.Common.csproj" />
+    <ProjectReference Include="..\21-Infrastructures.Persistence\21-Infrastructures.Persistence.csproj" />
+    <ProjectReference Include="..\99-Tools\99-Tools.csproj" />
+  </ItemGroup>
+
+</Project>
