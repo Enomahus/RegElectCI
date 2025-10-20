@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\DEV\\RegElectCI\\src\\back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE1E21C3-8021-4842-9F09-C42855189EB9}|tests\\Application.UnitTests\\Application.UnitTests.csproj|d:\\dev\\regelectci\\src\\back\\tests\\application.unittests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE1E21C3-8021-4842-9F09-C42855189EB9}|tests\\Application.UnitTests\\Application.UnitTests.csproj|solutionrelative:tests\\application.unittests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1AB3D49-9AA0-8E84-F169-9C7BDD6A62EB}|src\\Backend\\20-Infrastructures\\20-Infrastructures.csproj|d:\\dev\\regelectci\\src\\back\\src\\backend\\20-infrastructures\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1AB3D49-9AA0-8E84-F169-9C7BDD6A62EB}|src\\Backend\\20-Infrastructures\\20-Infrastructures.csproj|solutionrelative:src\\backend\\20-infrastructures\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|d:\\dev\\regelectci\\src\\back\\src\\backend\\10-application\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|solutionrelative:src\\backend\\10-application\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{040F3507-8815-D738-3711-08AF57E253C5}|src\\Backend\\22-Infrastructures.Persistence.SQLServer\\22-Infrastructures.Persistence.SQLServer.csproj|d:\\dev\\regelectci\\src\\back\\src\\backend\\22-infrastructures.persistence.sqlserver\\context\\writabledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040F3507-8815-D738-3711-08AF57E253C5}|src\\Backend\\22-Infrastructures.Persistence.SQLServer\\22-Infrastructures.Persistence.SQLServer.csproj|solutionrelative:src\\backend\\22-infrastructures.persistence.sqlserver\\context\\writabledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|d:\\dev\\regelectci\\src\\back\\src\\backend\\10-application\\interfaces\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|solutionrelative:src\\backend\\10-application\\interfaces\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|d:\\dev\\regelectci\\src\\back\\src\\backend\\10-application\\exceptions\\auth\\userauthenticationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|solutionrelative:src\\backend\\10-application\\exceptions\\auth\\userauthenticationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|d:\\dev\\regelectci\\src\\back\\src\\backend\\10-application\\behaviours\\authorizationbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEA075AD-58CD-E36B-0590-60B653BB7C67}|src\\Backend\\10-Application\\10-Application.csproj|solutionrelative:src\\backend\\10-application\\behaviours\\authorizationbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{040F3507-8815-D738-3711-08AF57E253C5}|src\\Backend\\22-Infrastructures.Persistence.SQLServer\\22-Infrastructures.Persistence.SQLServer.csproj|d:\\dev\\regelectci\\src\\back\\src\\backend\\22-infrastructures.persistence.sqlserver\\context\\readonlydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040F3507-8815-D738-3711-08AF57E253C5}|src\\Backend\\22-Infrastructures.Persistence.SQLServer\\22-Infrastructures.Persistence.SQLServer.csproj|solutionrelative:src\\backend\\22-infrastructures.persistence.sqlserver\\context\\readonlydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,66 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Test1.cs",
-              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\tests\\Application.UnitTests\\Test1.cs",
-              "RelativeDocumentMoniker": "tests\\Application.UnitTests\\Test1.cs",
-              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\tests\\Application.UnitTests\\Test1.cs",
-              "RelativeToolTip": "tests\\Application.UnitTests\\Test1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "ConfigureServices.cs",
+              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\20-Infrastructures\\ConfigureServices.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\20-Infrastructures\\ConfigureServices.cs",
+              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\20-Infrastructures\\ConfigureServices.cs",
+              "RelativeToolTip": "src\\Backend\\20-Infrastructures\\ConfigureServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T18:07:49.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserAuthenticationException.cs",
-              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\Exceptions\\Auth\\UserAuthenticationException.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\10-Application\\Exceptions\\Auth\\UserAuthenticationException.cs",
-              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\Exceptions\\Auth\\UserAuthenticationException.cs",
-              "RelativeToolTip": "src\\Backend\\10-Application\\Exceptions\\Auth\\UserAuthenticationException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T17:54:56.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\Interfaces\\Services\\ITokenService.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\10-Application\\Interfaces\\Services\\ITokenService.cs",
-              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\Interfaces\\Services\\ITokenService.cs",
-              "RelativeToolTip": "src\\Backend\\10-Application\\Interfaces\\Services\\ITokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T17:53:36.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthorizationBehaviour.cs",
-              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\Behaviours\\AuthorizationBehaviour.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\10-Application\\Behaviours\\AuthorizationBehaviour.cs",
-              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\Behaviours\\AuthorizationBehaviour.cs",
-              "RelativeToolTip": "src\\Backend\\10-Application\\Behaviours\\AuthorizationBehaviour.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T15:38:16.459Z",
+              "WhenOpened": "2025-10-20T16:38:45.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ConfigureServices.cs",
-              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\ConfigureServices.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\10-Application\\ConfigureServices.cs",
-              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\ConfigureServices.cs",
-              "RelativeToolTip": "src\\Backend\\10-Application\\ConfigureServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Title": "WritableDbContext.cs",
+              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\22-Infrastructures.Persistence.SQLServer\\Context\\WritableDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\22-Infrastructures.Persistence.SQLServer\\Context\\WritableDbContext.cs",
+              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\22-Infrastructures.Persistence.SQLServer\\Context\\WritableDbContext.cs",
+              "RelativeToolTip": "src\\Backend\\22-Infrastructures.Persistence.SQLServer\\Context\\WritableDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T20:19:12.718Z",
+              "WhenOpened": "2025-10-20T16:38:39.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReadOnlyDbContext.cs",
+              "DocumentMoniker": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\22-Infrastructures.Persistence.SQLServer\\Context\\ReadOnlyDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\22-Infrastructures.Persistence.SQLServer\\Context\\ReadOnlyDbContext.cs",
+              "ToolTip": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\22-Infrastructures.Persistence.SQLServer\\Context\\ReadOnlyDbContext.cs",
+              "RelativeToolTip": "src\\Backend\\22-Infrastructures.Persistence.SQLServer\\Context\\ReadOnlyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:38:29.877Z",
               "EditorCaption": ""
             }
           ]

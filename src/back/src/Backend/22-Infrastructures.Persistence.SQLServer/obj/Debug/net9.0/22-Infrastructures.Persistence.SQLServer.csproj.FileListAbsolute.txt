@@ -18,3 +18,5 @@ D:\DEV\RegElectCI\src\back\src\Backend\22-Infrastructures.Persistence.SQLServer\
 D:\DEV\RegElectCI\src\back\src\Backend\22-Infrastructures.Persistence.SQLServer\obj\Debug\net9.0\refint\22-Infrastructures.Persistence.SQLServer.dll
 D:\DEV\RegElectCI\src\back\src\Backend\22-Infrastructures.Persistence.SQLServer\obj\Debug\net9.0\22-Infrastructures.Persistence.SQLServer.pdb
 D:\DEV\RegElectCI\src\back\src\Backend\22-Infrastructures.Persistence.SQLServer\obj\Debug\net9.0\ref\22-Infrastructures.Persistence.SQLServer.dll
+D:\DEV\RegElectCI\src\back\src\Backend\22-Infrastructures.Persistence.SQLServer\bin\Debug\net9.0\22-Infrastructures.Persistence.SQLServer.runtimeconfig.json
+D:\DEV\RegElectCI\src\back\src\Backend\22-Infrastructures.Persistence.SQLServer\obj\Debug\net9.0\22-Infrastructures.Persistence.SQLServer.genruntimeconfig.cache

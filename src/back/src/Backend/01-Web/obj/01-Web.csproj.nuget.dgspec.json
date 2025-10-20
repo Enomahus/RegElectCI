@@ -156,9 +156,37 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Logging.AzureAppServices": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.22.1, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[14.6.1, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.13.1, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.10, )"
             }
           },
           "imports": [
@@ -299,7 +327,17 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\10-Application.csproj": {
+                "projectPath": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\10-Application.csproj"
+              },
+              "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\13-Application.Ressources\\13-Application.Ressources.csproj": {
+                "projectPath": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\13-Application.Ressources\\13-Application.Ressources.csproj"
+              },
+              "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\99-Tools\\99-Tools.csproj": {
+                "projectPath": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\99-Tools\\99-Tools.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -317,6 +355,20 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "NJsonSchema": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "NSwag.Annotations": {
+              "target": "Package",
+              "version": "[14.6.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -497,7 +549,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\10-Application.csproj": {
+                "projectPath": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\10-Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -515,6 +571,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.TimeProvider.Testing": {
+              "target": "Package",
+              "version": "[9.10.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -674,6 +740,38 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "OpenTelemetry.Instrumentation.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.12.0-beta.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
