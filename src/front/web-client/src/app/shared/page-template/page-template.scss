@@ -1,0 +1,15 @@
+.page {
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+
+  .container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    .content {
+      width: 95%;
+    }
+  }
+}

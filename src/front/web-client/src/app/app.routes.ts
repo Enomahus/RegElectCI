@@ -1,3 +1,28 @@
 import { Routes } from '@angular/router';
+import { Dashboard } from './pages/dashboard/dashboard';
+import { Login } from './pages/login/login';
+import { PageTemplate } from './shared/page-template/page-template';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+  {
+    path: '',
+    redirectTo: '/dashboard',
+    pathMatch: 'full',
+  },
+  {
+    path: 'login',
+    component: Login,
+    title: 'Se Connecter',
+  },
+  {
+    path: '',
+    component: PageTemplate,
+    children: [
+      {
+        path: 'dashboard',
+        component: Dashboard,
+        title: 'Accueil',
+      },
+    ],
+  },
+];

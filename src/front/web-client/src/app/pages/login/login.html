@@ -1,0 +1,48 @@
+<app-login-page-template>
+  <form class="basic-form login-form" (ngSubmit)="submit()">
+    <!-- Email -->
+    <div class="input-block required">
+      <label for="email">Email</label>
+      <input
+        id="email"
+        type="email"
+        [value]="email()"
+        (input)="email.set($any($event.target).value)"
+      />
+      @if (emailErrors()) {
+        <ul class="form-error">
+          <li>{{ emailErrors() }}</li>
+        </ul>
+      }
+    </div>
+    <!-- Password -->
+    <div class="input-block required">
+      <label for="password">Password</label>
+      <div class="password-container">
+        <input
+          id="password"
+          [type]="passwordVisible() ? 'text' : 'password'"
+          [value]="password()"
+          (input)="password.set($any($event.target).value)"
+        />
+        <button
+          type="button"
+          class="toggle-password"
+          (click)="togglePasswordVisibility()"
+        >
+          <i [class]="passwordVisible() ? 'ph ph-eye' : 'ph ph-eye-slash'"></i>
+        </button>
+      </div>
+      @if (passwordErrors()) {
+        <ul class="form-error">
+          <li>{{ passwordErrors() }}</li>
+        </ul>
+      }
+    </div>
+    <div class="btn-container">
+      <button type="submit" class="btn secondary" [disabled]="!isFormValid()">
+        Se connecter
+      </button>
+    </div>
+  </form>
+</app-login-page-template>
