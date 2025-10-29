@@ -6483,23 +6483,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\enoma\\.nuget\\packages\\": {},
+    "C:\\Users\\PCNG\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\20-Infrastructures\\20-Infrastructures.csproj",
+      "projectUniqueName": "D:\\BOLAN\\Auto-Learning\\RegElect\\RegElectCI\\src\\back\\src\\Backend\\20-Infrastructures\\20-Infrastructures.csproj",
       "projectName": "20-Infrastructures",
-      "projectPath": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\20-Infrastructures\\20-Infrastructures.csproj",
-      "packagesPath": "C:\\Users\\enoma\\.nuget\\packages\\",
-      "outputPath": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\20-Infrastructures\\obj\\",
+      "projectPath": "D:\\BOLAN\\Auto-Learning\\RegElect\\RegElectCI\\src\\back\\src\\Backend\\20-Infrastructures\\20-Infrastructures.csproj",
+      "packagesPath": "C:\\Users\\PCNG\\.nuget\\packages\\",
+      "outputPath": "D:\\BOLAN\\Auto-Learning\\RegElect\\RegElectCI\\src\\back\\src\\Backend\\20-Infrastructures\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\enoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PCNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6515,8 +6515,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\10-Application.csproj": {
-              "projectPath": "D:\\DEV\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\10-Application.csproj"
+            "D:\\BOLAN\\Auto-Learning\\RegElect\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\10-Application.csproj": {
+              "projectPath": "D:\\BOLAN\\Auto-Learning\\RegElect\\RegElectCI\\src\\back\\src\\Backend\\10-Application\\10-Application.csproj"
             }
           }
         }
@@ -6562,7 +6562,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
