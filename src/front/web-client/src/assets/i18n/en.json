@@ -1,34 +1,18 @@
 {
   "global": {
     "accept": "Accept",
-    "alertsMessage": "Alert message",
     "back": "Back",
     "cancel": "Back",
     "confirm": "Confirm",
-    "confirmation": "Confirmation",
-    "createAccount": "Create an account",
-    "creationConfirmation": "Creation confirmation",
-    "dateInfo": "On {{ date }}",
     "delete": "Delete",
-    "deleteConfirmation": "Deletion confirmation",
-    "deny": "Reject",
-    "details": "Details",
     "edit": "Edit",
-    "errorGetCurrentUser": "Error retrieving the current user.",
     "login": "Log in",
-    "missingData": "N/A ",
-    "no": "No",
     "noTitleTemplate": "{{project}} | CEI-CI",
-    "notFound": "Resource not found",
-    "quitWithoutSaving": "Exit without saving ?",
-    "returnText": "You are about to leave this page. The information entered in the form may be lost. \n Are you sure you want to continue ?",
-    "save": "Save",
-    "search": "Search",
     "titleTemplate": "{{title}} | {{project}} | CEI-CI",
     "projectTitle": "Voting register",
-    "tonnage": "Tonnage",
-    "tons": "tons",
-    "width": "Width",
-    "yes": "Yes"
+    "home": "Home"
+  },
+  "login": {
+    "title": "Sign in"
   }
 }

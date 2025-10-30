@@ -12,7 +12,7 @@ export const routes: Routes = [
   {
     path: 'login',
     component: Login,
-    title: 'Se Connecter',
+    title: 'login.title',
   },
   {
     path: '',
@@ -21,7 +21,7 @@ export const routes: Routes = [
       {
         path: 'dashboard',
         component: Dashboard,
-        title: 'Accueil',
+        title: 'global.home',
       },
     ],
   },

@@ -1,34 +1,18 @@
 {
   "global": {
     "accept": "Accepter",
-    "alertsMessage": "Message d'alertes ",
     "back": "Retour",
     "cancel": "Retour",
     "confirm": "Confirmer",
-    "confirmation": "Confirmation",
-    "createAccount": "Créer un compte",
-    "creationConfirmation": "Confirmation de création",
-    "dateInfo": "Le {{ date }}",
     "delete": "Supprimer",
-    "deleteConfirmation": "Confirmation de suppression",
-    "deny": "Refuser",
-    "details": "Détails",
     "edit": "Editer",
-    "errorGetCurrentUser": "Erreur lors de la récupération de l'utilisateur courant.",
     "login": "Se connecter",
-    "missingData": "N/A",
-    "no": "Non",
     "noTitleTemplate": "{{project}} | CEI-CI",
-    "notFound": "Ressource introuvable",
-    "quitWithoutSaving": "Quitter sans sauvegarder ?",
-    "returnText": "Vous êtes sur le point de quitter cette page. Les informations saisies dans le formulaire risquent d'être perdues.\nVoulez-vous vraiment continuer ?",
-    "save": "Enregistrer",
-    "search": "Rechercher",
     "titleTemplate": "{{title}} | {{project}} | CEI-CI",
     "projectTitle": "Liste électorale",
-    "tonnage": "Tonnage",
-    "tons": "tonnes",
-    "width": "Largeur",
-    "yes": "Oui"
+    "home": "Accueil"
+  },
+  "login": {
+    "title": "Connexion"
   }
 }

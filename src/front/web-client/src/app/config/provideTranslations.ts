@@ -1,5 +1,9 @@
 import { HttpClient } from '@angular/common/http';
-import { EnvironmentProviders, importProvidersFrom } from '@angular/core';
+import {
+  EnvironmentProviders,
+  importProvidersFrom,
+  inject,
+} from '@angular/core';
 import {
   TranslateLoader,
   TranslateModule,
@@ -9,7 +13,7 @@ import { catchError, forkJoin, map, Observable, of } from 'rxjs';
 import packageJson from '../../../package.json';
 
 class TranslationLoader implements TranslateLoader {
-  constructor(private http: HttpClient) {}
+  private readonly http = inject(HttpClient);
 
   getTranslation(lang: string): Observable<TranslationObject> {
     const baseI18nDirectory = '/assets/i18n';
@@ -32,11 +36,9 @@ class TranslationLoader implements TranslateLoader {
     });
 
     return forkJoin(tasks$).pipe(
-      map((translates) => {
-        return translates.reduce((prev, curr) => {
-          return { ...prev, ...curr };
-        }, {} as TranslationObject);
-      }),
+      map((translates) =>
+        translates.reduce((acc, curr) => ({ ...acc, ...curr }), {}),
+      ),
     );
   }
 }

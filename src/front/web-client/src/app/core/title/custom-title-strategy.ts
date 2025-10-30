@@ -17,6 +17,16 @@ export class CustomTitleStrategy extends TitleStrategy {
 
   override updateTitle(snapshot: RouterStateSnapshot): void {
     const routeTitleKey = this.buildTitle(snapshot);
+
+    // S'assurer que la langue est bien définie
+    const currentLang =
+      this.translateService.getCurrentLang() ||
+      this.translateService.getFallbackLang();
+    if (!currentLang) {
+      console.warn('Langue non définie pour ngx-translate');
+      return;
+    }
+
     const projectTitle$ = this.translateService
       .get('global.projectTitle')
       .pipe(take(1));
