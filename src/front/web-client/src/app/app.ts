@@ -17,8 +17,7 @@ export class App implements OnInit {
 
   constructor(private translateService: TranslateService) {
     translateService.addLangs(['fr']);
-    translateService.setFallbackLang('fr');
-    //this.translationLoaded$ = translateService.use('fr');
+    translateService.setFallbackLang('en');
   }
 
   ngOnInit(): void {
