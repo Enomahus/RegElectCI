@@ -11,11 +11,14 @@ import {
 } from '@angular/router';
 
 import { provideHttpClient, withInterceptors } from '@angular/common/http';
+import { provideTranslateService } from '@ngx-translate/core';
+import { provideTranslateHttpLoader } from '@ngx-translate/http-loader';
 import { provideToastr } from 'ngx-toastr';
 import { routes } from './app.routes';
-import { provideTranslations } from './config/provideTranslations';
 import { CustomTitleStrategy } from './core/title/custom-title-strategy';
 import { langInterceptor } from './services/api/interceptors/lang-interceptor';
+import { ConfigService } from './services/config.service';
+import { APP_BASE_URL } from './services/nswag/api-nswag-client';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -23,7 +26,21 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideHttpClient(withInterceptors([langInterceptor])),
     provideRouter(routes, withComponentInputBinding()),
-    provideTranslations(),
+    {
+      provide: APP_BASE_URL,
+      useFactory: (configService: ConfigService) =>
+        configService.getConfig().apiUrl,
+      deps: [ConfigService],
+    },
+    //provideTranslations(),
+    provideTranslateService({
+      lang: 'en',
+      fallbackLang: 'en',
+      loader: provideTranslateHttpLoader({
+        prefix: '/i18n/',
+        suffix: '.json',
+      }),
+    }),
     provideToastr(),
     { provide: LOCALE_ID, useValue: 'fr-FR' },
     {
