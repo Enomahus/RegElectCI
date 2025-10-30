@@ -3,9 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port=45081",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "lint": "ng lint",
+    "lint-fix": "ng lint --fix",
+    "generate-api-client": "nswag run ./server.nswag.json",
     "test": "ng test"
   },
   "prettier": {

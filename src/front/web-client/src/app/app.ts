@@ -1,12 +1,28 @@
-import { Component, signal } from '@angular/core';
+import { AsyncPipe } from '@angular/common';
+import { Component, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
+import { Subject } from 'rxjs';
+import { Loader } from './shared/loader/loader';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, AsyncPipe, Loader],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrl: './app.scss',
 })
-export class App {
+export class App implements OnInit {
   protected readonly title = signal('web-client');
+  translationLoaded$ = new Subject<boolean>();
+
+  constructor(private translateService: TranslateService) {
+    translateService.addLangs(['fr']);
+    translateService.setFallbackLang('en');
+  }
+
+  ngOnInit(): void {
+    this.translateService.use('fr').subscribe(() => {
+      this.translationLoaded$.next(true);
+    });
+  }
 }

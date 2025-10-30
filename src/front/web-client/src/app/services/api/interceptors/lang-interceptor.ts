@@ -1,17 +1,17 @@
 import { HttpEvent, HttpHandlerFn, HttpRequest } from '@angular/common/http';
 import { inject } from '@angular/core';
 import { LanguageService } from '@app/services/language.service';
+import { APP_BASE_URL } from '@app/services/nswag/api-nswag-client';
 import { combineLatest, Observable, switchMap, take } from 'rxjs';
 
 export function langInterceptor(
   req: HttpRequest<unknown>,
   next: HttpHandlerFn,
 ): Observable<HttpEvent<unknown>> {
-  //ToDo: Commentaire à prendre en compte une fois que api-base.service.ts est généré
-  //   const baseApiUrl = inject(APP_BASE_URL);
-  //   if (!req.url.startsWith(baseApiUrl)) {
-  //     return next(req);
-  //   }
+  const baseApiUrl = inject(APP_BASE_URL);
+  if (!req.url.startsWith(baseApiUrl)) {
+    return next(req);
+  }
   const langService = inject(LanguageService);
   return combineLatest([
     langService.getCurrentLanguage(),
